@@ -31,3 +31,4 @@ BSD
 - [Polymer](https://github.com/passy/x-pokemon)
 - [Vanilla](https://github.com/calvinmetcalf/vanilla-pokemon)
 - [React](https://github.com/passy/react-pokemon)
+- [es6](http://samccone.github.io/es6-pokemon/)
