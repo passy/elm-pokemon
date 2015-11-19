@@ -9,7 +9,7 @@ import String
 type alias Model = String
 
 initialModel : Model
-initialModel = "pikachu"
+initialModel = "jigglypuff"
 
 main : Signal Html
 main =
@@ -27,7 +27,7 @@ update : Action -> Model -> Model
 update action model =
   case action of
     NoOp -> model
-    UpdateField str -> String.toLower str
+    UpdateField str -> str |> String.toLower |> String.trim
 
 view : Address Action -> Model -> Html
 view address model = div []
