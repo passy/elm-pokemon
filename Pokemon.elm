@@ -9,7 +9,7 @@ import String
 type alias Model = String
 
 initialModel : Model
-initialModel = "pikachu"
+initialModel = "jigglypuff"
 
 main : Signal Html
 main =
